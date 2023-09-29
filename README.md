@@ -15,7 +15,7 @@ This project demonstrates how to create a responsive and interactive navigation 
 
 ## Demo
 
-You can see a live demo of this project here: [Interactive Navigation Menu Demo](https://codepen.io/Siddhesh_/pen/oNJymaN)
+You can see a live demo of this project here: [Interactive Navigation Menu Demo](#https://codepen.io/Siddhesh_/pen/oNJymaN)
 
 ## Features
 
