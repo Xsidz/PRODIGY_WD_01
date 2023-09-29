@@ -1,0 +1,33 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="navbar" id="myNavbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+            } else {
+                navbar.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
+            }
+        }
+    </script>
+</body>
+</html>
